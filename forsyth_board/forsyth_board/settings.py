@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'homeboard.apps.HomeboardConfig',
     'brandom.apps.BrandomConfig',
     'users.apps.UsersConfig',
     'crispy_forms',

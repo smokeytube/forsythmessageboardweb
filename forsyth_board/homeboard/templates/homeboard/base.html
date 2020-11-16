@@ -14,6 +14,13 @@
     <title>Forsyth /b</title>
 </head>
 <body>
+    <h1>Welcome to the forsyth message board!</h1>
+    <h2>Rules:</h2>
+    <h3>1) No talk of illegal activities</h3>
+    <h3>2) No NSFW images. Period.</h3>
+    <h2>Rules for Brandom:</h2>
+    <h3>1) No gore. That's it.</h3>
+    <h3>I would like to keep the images SFW but if you must, you can.</h3>
         <header class="site-header">
     <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
@@ -39,30 +46,7 @@
         </div>
     </nav>
     </header>
-    <main role="main" class="container">
-        <div class="row">
-            <div class="col-md-8">
-            {% if messages %}
-                {% for message in messages %}
-                    <div class="alert alert-{{ message.tags }}">
-                        {{ message }}
-                    </div>
-                {% endfor %}
-            {% endif %}
-            {% block content %}{% endblock %}
-            </div>
-            <div class="col-md-4">
-            <div class="content-section">
-                <h3>Ez bar</h3>
-                <!-- <p class='text-muted'>You can put any information here you'd like.
-                <ul class="list-group"> -->
-                    <a class="list-group-item list-group-item-light" href="{% url 'post-create' %}">New Post</a>
-                </ul>
-                </p>
-            </div>
-            </div>
-        </div>
-        </main>
+    
 
 
     <!-- Optional JavaScript -->
