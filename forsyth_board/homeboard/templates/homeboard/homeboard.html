@@ -1,5 +1,6 @@
 {% extends "homeboard/base.html" %}
 {% block content %}
+{% load static %}
 <style>
     h1 {text-align: center;}
     p {text-align: center;}
@@ -41,6 +42,7 @@
 <div class="boxed" id="rulebox">
     <h1>Welcome to the Forsyth message board!</h1>
     <h1>----------------------------</h1>
+    <img src="{% static '/images/logoresize.png' %}"/>
     <h2>Rules:</h2>
     <h3>Have common sense! Remember, you are talking to people you know in real life!</h3>
 </div>
