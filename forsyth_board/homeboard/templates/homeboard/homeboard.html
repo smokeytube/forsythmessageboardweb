@@ -22,6 +22,15 @@
      padding: 10px;
      margin-left: 400px;
      margin-right: 400px;
+     background-color: #FFFFEE;
+}
+
+.boxed4 {
+     border: 5px dashed #9F403B ;
+     padding: 10px;
+     margin-top: 100px;
+     margin-left: 350px;
+     margin-right: 350px;
 }
 
 .spaced {
@@ -30,6 +39,12 @@
      margin-left: 5px;
      margin-right: 5px;
 }
+
+.container-fluid{
+    border: 5px dashed #9F403B;
+    padding: 50px;
+    
+}
     #rulebox {
   background-color: #ffffff ;
 }
@@ -37,20 +52,24 @@
     #Announcements{
         margin-top: 100px;
     }
+      #announcebox{
+        background-color: #ffffff;
+    }
     </style>
 
-<div class="boxed" id="rulebox">
+<div class="container-fluid" id="rulebox">
     <h1>Welcome to the Forsyth message board!</h1>
     <h1>----------------------------</h1>
     <img src="{% static '/images/logoresize.png' %}"/>
     <h2>Rules:</h2>
     <h3>Have common sense! Remember, you are talking to people you know in real life!</h3>
 </div>
-<div class="boxed2" id="Announcements">
+<div class="container" id="Announcements">
 <h1>Announcements</h1>
 <h1>----------------------------</h1>
 <h2>Thank you to our contributers!</h2>
-<div class="boxed3">
+<div class="spaced"></div>
+<div class="container">
 <h3>Alpha Testers</h3>
 <h5>---------------------</h5>
 <h4>doctorwail</h4>
@@ -59,13 +78,13 @@
 <h4>Xeno_503</h4>
 </div>
 <div class="spaced"></div>
-<div class="boxed3">
+<div class="container">
 <h3>UI Suggestors</h3>
 <h5>---------------------</h5>
 <h4>Alpha-X2</h4>
 <h4>bruh</h4>
+<div class="spaced"></div>
 </div>
-<h1></h1>
 <i>Created Wednesday, November 11 2020 | </i>
 <i>Pushed into production on Thursday, November 26 2020 | </i>
 <i>Created by Zachary Davis</i>
@@ -73,7 +92,6 @@
 <h5>Contact me on discord at ZachD#0132 for any questions comments or concerns</h5>
 </p>
 </div>
-<a  href="/project/download" download> Download Document </a>
 <!-- Xiz hfu bo TTM dfsujgjdbuf xifo J dbo kvtu vtf djqifs fodszqujpo? 🤪 -->
 {% for post in posts %}
             <article class="media content-section">
