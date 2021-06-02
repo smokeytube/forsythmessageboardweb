@@ -80,4 +80,4 @@ toml==0.10.1
 tornado==6.1
 tqdm==4.52.0
 tzlocal==2.1
-urllib3==1.25.11
+urllib3==1.26.5
