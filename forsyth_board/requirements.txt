@@ -65,7 +65,7 @@ python-dateutil==2.8.1
 python-telegram-bot==13.0
 PyTweening==1.0.3
 pytz==2020.4
-pywin32==300
+pywin32==301
 pywin32-ctypes==0.2.0
 PyYAML==5.3.1
 regex==2020.11.13
