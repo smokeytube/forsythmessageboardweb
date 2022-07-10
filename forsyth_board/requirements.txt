@@ -43,7 +43,7 @@ multidict==4.7.6
 numpy==1.22.0
 pandas==1.1.4
 pefile==2019.4.18
-Pillow==8.0.1
+Pillow==9.0.1
 plyer==2.0.0
 protobuf==3.14.0
 pycparser==2.20
