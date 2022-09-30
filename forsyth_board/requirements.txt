@@ -31,7 +31,7 @@ idna==2.10
 importlib-metadata==2.0.0
 instapy==0.6.12
 isort==5.5.3
-joblib==0.17.0
+joblib==1.2.0
 jsonschema==2.6.0
 keyboard==0.13.5
 lazy-object-proxy==1.4.3
